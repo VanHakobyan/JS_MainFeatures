@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        var date = new Date();
+        document.write(date.getDate()+"<br>");
+        document.write(date.toDateString() + "<br>" + "<hr>");
+
+        var array = new Array(10); //        var array =new Array(10);
+        array[5] = 115;
+        document.write(array + "<hr>");
+
+        var func = new Function("a", "b", "return a+b");
+        var t = func(5, 9);
+        document.write(t);
+        var text = func("a" + "b");
+        document.write("<br>");
+        document.write(text);//not work
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
