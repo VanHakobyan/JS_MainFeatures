@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function Human(name) {
+            this.firstName = name;
+            this.sayHello = function () {
+                document.write("Hello my name is " + this.firstName);
+            }
+        }
+        var van = new Human("Van");
+        van.sayHello();
+        document.write("<hr>");
+
+        var friends = function (mood) {
+            this.mood = mood;
+            if (mood === "nice") {
+                this.talk = function () {
+                    alert("hello bebe");
+                }
+            }
+            else if (mood === "bad") {
+                this.talk = function () {
+                    alert("hello :((((((");
+                }
+            }
+            else this.talk = function () {
+                alert("hi");
+            }
+        }
+        //while (true) {
+
+        var state = prompt("write mood");
+        var fr = new friends(state);
+        fr.talk();
+        //}
+    </script>
+</head>
+<body>
+
+</body>
+</html>
