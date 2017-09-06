@@ -10,6 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructors", "Constructor
 		storedCtor.html = storedCtor.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{AA46F58F-1F67-4C6E-9E2E-B46A863A79E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{68958E39-B971-48A7-BC83-D5B265108CC9}"
+	ProjectSection(SolutionItems) = preProject
+		Rectangle.html = Rectangle.html
+		RegtangleProto,.html = RegtangleProto,.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
