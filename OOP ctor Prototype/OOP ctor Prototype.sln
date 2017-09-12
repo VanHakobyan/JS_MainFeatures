@@ -1,12 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructors", "Constructors", "{52EF0624-D320-4C10-9848-B9EE8698E6E0}"
 	ProjectSection(SolutionItems) = preProject
+		CallPoint.html = CallPoint.html
 		CustomCtor.html = CustomCtor.html
 		Object.htm = Object.htm
+		Point.js = Point.js
 		storedCtor.html = storedCtor.html
 	EndProjectSection
 EndProject
@@ -21,5 +23,8 @@ EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5C09A33-151A-4B3A-A109-75A2559F7110}
 	EndGlobalSection
 EndGlobal

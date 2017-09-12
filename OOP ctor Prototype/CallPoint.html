@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Point(x, y) {
+            this.x = x;
+            this.y = y;
+            this.print = function () {
+                document.write("<h1>" + "(" + this.x + "," + this.y + ")" + "</h1>");
+            }
+        }
+
+        Point.lengthVector = function () {
+            return sqrt(this.x * this.x + this.y * this.y);
+        }
+        var points = Point(5, 4);
+        var lengthVector = points.lengthVector;
+        var print = points.print;
+    </script>
+</body>
+</html>
