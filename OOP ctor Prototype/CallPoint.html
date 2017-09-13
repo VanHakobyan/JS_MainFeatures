@@ -11,16 +11,15 @@
             this.x = x;
             this.y = y;
             this.print = function () {
-                document.write("<h1>" + "(" + this.x + "," + this.y + ")" + "</h1>");
+                document.write("(" + this.x + "," + this.y + ")"+"<br>");
+            }
+            this.ones = function () {
+                return new Point(1, 1);
             }
         }
-
-        Point.lengthVector = function () {
-            return sqrt(this.x * this.x + this.y * this.y);
-        }
-        var points = Point(5, 4);
-        var lengthVector = points.lengthVector;
-        var print = points.print;
+        var points = new Point(5, 4);
+        points.print();
+        points.ones().print();
     </script>
 </body>
 </html>
