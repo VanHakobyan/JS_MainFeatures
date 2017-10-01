@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructors", "Constructors", "{52EF0624-D320-4C10-9848-B9EE8698E6E0}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,8 +18,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 		RegtangleProto,.html = RegtangleProto,.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object", "Object", "{79E49DEA-72CB-4B46-AFAC-DC81D35CA9D8}"
+	ProjectSection(SolutionItems) = preProject
+		hasOwnProperty.js = hasOwnProperty.js
+		valueOfandToString.js = valueOfandToString.js
+		Writer.htm = Writer.htm
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24154118-2834-4EA5-8510-30969C9B1390}
 	EndGlobalSection
 EndGlobal
