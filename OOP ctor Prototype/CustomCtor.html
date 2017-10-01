@@ -15,7 +15,7 @@
         van.sayHello();
         document.write("<hr>");
 
-        var friends = function (mood) {
+        var Friends = function (mood) {
             this.mood = mood;
             if (mood === "nice") {
                 this.talk = function () {
@@ -34,9 +34,10 @@
         //while (true) {
 
         var state = prompt("write mood");
-        var fr = new friends(state);
+        var fr = new Friends(state);
         fr.talk();
         //}
+        
     </script>
 </head>
 <body>
