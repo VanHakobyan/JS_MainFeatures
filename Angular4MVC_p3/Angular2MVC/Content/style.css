@@ -1,0 +1,37 @@
+﻿.md-dialog-container {
+  width: 550px;
+  height: 480px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.md-dialog-footer {
+  padding: 20px;
+  width: 100%;
+}
+
+md-input-container {
+  width: 100%;
+}
+
+.frm-ctrl {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.line_ctrl {
+  float: left;
+  width: 145px;
+  text-align: right;
+  margin: 2px;
+  display: inline;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../images/users.png');
+  background-size: cover;
+}
