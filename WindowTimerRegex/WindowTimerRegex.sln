@@ -17,6 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Window", "Window", "{D737B5
 		WindowGeometry.html = WindowGeometry.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Regex", "Regex", "{11555AEB-3931-466C-9C02-A1E3BE05C5B5}"
+	ProjectSection(SolutionItems) = preProject
+		exec.html = exec.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
