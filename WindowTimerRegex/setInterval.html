@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var counter = 0;
+            function Couneter() {
+                counter++;
+                document.getElementById('show').innerHTML = counter;
+            }
+            setInterval(Couneter, 1000);
+        }
+    
+    </script>
+</head>
+<body>
+    <p id="show"></p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Timers", "Timers", "{F06382B8-0DFF-4423-8B43-CD629EF62D1D}"
+	ProjectSection(SolutionItems) = preProject
+		setInterval.html = setInterval.html
+		setTimeout.html = setTimeout.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4252D69-C4A2-4BDB-8988-B7B32DF0759E}
+	EndGlobalSection
+EndGlobal
