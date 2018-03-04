@@ -1,0 +1,98 @@
+﻿<form novalidate (ngSubmit)="onSubmit(userFrm)" [formGroup]="userFrm">
+  <div>
+    <h1 md-dialog-title><span><md-icon>create</md-icon>{{modalTitle}}</span></h1>
+  </div>
+  <div style="padding-bottom:1px;background-color:#d8d8d8"></div>
+  <div md-dialog-content class="md-dialog-container">
+    <div class="frm-ctrl">
+      <md-input-container>
+        <input mdInput placeholder="First Name" formControlName="FirstName">
+      </md-input-container>
+      <div *ngIf="formErrors.FirstName" class="text-danger">
+        {{ formErrors.FirstName }}
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <md-input-container>
+        <input mdInput placeholder="Last Name" formControlName="LastName">
+      </md-input-container>
+      <div *ngIf="formErrors.LastName" class="text-danger">
+        {{ formErrors.LastName }}
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <md-input-container>
+        <input type="email" mdInput placeholder="Email" formControlName="Email">
+      </md-input-container>
+      <div *ngIf="formErrors.Email" class="text-danger">
+        {{ formErrors.Email }}
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <md-radio-group formControlName="Gender">
+        <md-radio-button *ngFor="let gndr of gender" [value]="gndr">
+          {{gndr}}
+        </md-radio-button>
+      </md-radio-group>
+      <div *ngIf="formErrors.Gender" class="text-danger">
+        {{ formErrors.Gender }}
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <md-input-container style="width:50%">
+        <input mdInput [mdDatepicker]="picker" placeholder="Date of Birth" formControlName="DOB">
+        <button mdSuffix [mdDatepickerToggle]="picker"></button>
+      </md-input-container>
+      <md-datepicker #picker></md-datepicker>
+      <div *ngIf="formErrors.DOB" class="text-danger">
+        {{ formErrors.DOB }}
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <div class="line_ctrl">
+        <md-input-container class="example-full-width">
+          <input mdInput placeholder="City" formControlName="City">
+        </md-input-container>
+        <div *ngIf="formErrors.City" class="text-danger">
+          {{ formErrors.City }}
+        </div>
+      </div>
+      <div class="line_ctrl">
+        <md-input-container>
+          <input mdInput placeholder="State" [mdAutocomplete]="auto" formControlName="State">
+        </md-input-container>
+        <md-autocomplete #auto="mdAutocomplete">
+          <md-option *ngFor="let state of filteredStates | async" [value]="state">
+            {{ state }}
+          </md-option>
+        </md-autocomplete>
+        <div *ngIf="formErrors.State" class="text-danger">
+          {{ formErrors.State }}
+        </div>
+      </div>
+      <div class="line_ctrl">
+        <md-input-container class="example-full-width">
+          <input mdInput #postalCode maxlength="5" placeholder="Zip" formControlName="Zip">
+          <md-hint align="end">{{postalCode.value.length}} / 5</md-hint>
+        </md-input-container>
+        <div *ngIf="formErrors.Zip" class="text-danger">
+          {{ formErrors.Zip }}
+        </div>
+      </div>
+    </div>
+    <div class="frm-ctrl">
+      <md-select placeholder="Country" style="width:50%" formControlName="Country">
+        <md-option *ngFor="let ctry of country" [value]="ctry.value">
+          {{ ctry.viewValue }}
+        </md-option>
+      </md-select>
+      <div *ngIf="formErrors.Country" class="text-danger">
+        {{ formErrors.Country }}
+      </div>
+    </div>
+  </div>
+  <md-dialog-actions class="md-dialog-footer" align="end">
+    <button color="warn" type="button" md-raised-button (click)="dialogRef.close()">Cancel</button>&nbsp;
+    <button type="submit" color="primary" [disabled]="userFrm.invalid" md-raised-button>{{modalBtnTitle}}</button>
+    </ md-dialog-actions>
+</form>
