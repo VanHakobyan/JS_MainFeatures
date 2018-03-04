@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("Open").onclick = openButtonHandler;
+            document.getElementById("Close").onclick = closeButtonHandler;
+            var newWindow;
+            function openButtonHandler() {
+                newWindow = window.open("WindowGeometry.html", "window.Name", "width=200,height=150,status=yes,resizble=no");
+            }
+            function closeButtonHandler() {
+                newWindow.close();
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="Open" type="button" value="Open">
+    <input id="Close" type="button" value="Close">
+</body>
+</html>
