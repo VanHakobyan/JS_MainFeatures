@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        var count = 0;
+        var interval;
+        window.onload = function () {
+            function counter() {
+                get("Output").innerHTML = count;
+                count++;
+            }
+            get("start").onclick = function () {
+                intervalHandler = setInterval(counter, 10);
+            }
+            get("stop").onclick = function () {
+                clearInterval(intervalHandler);
+            }
+        }
+        var get = function (id) {
+            return document.getElementById(id);
+        }
+    </script>
+</head>
+<body>
+    <p id="Output">0</p>
+    <input id="start" type="button" value="start" />
+    <input id="stop" type="button" value="stop" />
+</body>
+</html>

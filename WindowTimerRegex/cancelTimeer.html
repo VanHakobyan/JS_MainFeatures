@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script  type="text/javascript">
+        var count;
+        window.onload = function () {
+            count = setTimeout(show, 5000); 
+        }
+        function show() {
+            alert("hi");
+        }
+
+        function clearTimer() {
+            clearTimeout(count);
+        }
+    </script>
+</head>
+<body>
+    <p id="one">5 second</p>
+    <a href="javascript:clearTimer()">Cnacel</a>
+</body>
+</html>

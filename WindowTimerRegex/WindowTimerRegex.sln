@@ -5,8 +5,10 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Timers", "Timers", "{F06382B8-0DFF-4423-8B43-CD629EF62D1D}"
 	ProjectSection(SolutionItems) = preProject
+		cancelTimeer.html = cancelTimeer.html
 		setInterval.html = setInterval.html
 		setTimeout.html = setTimeout.html
+		StartStopTimers.html = StartStopTimers.html
 	EndProjectSection
 EndProject
 Global
