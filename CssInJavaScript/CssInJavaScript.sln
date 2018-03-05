@@ -15,6 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DHTML_CSS", "DHTML_CSS", "{
 		zIndex.html = zIndex.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DHTML", "DHTML", "{5B6636A2-B441-4F30-9CF3-68D84624E929}"
+	ProjectSection(SolutionItems) = preProject
+		CSSChangeColor.html = CSSChangeColor.html
+		CssClass.html = CssClass.html
+		ToolTip.html = ToolTip.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

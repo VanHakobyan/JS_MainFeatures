@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Change</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var button = document.getElementsByTagName("input")[0];
+            button.onclick = function() {
+                var div = document.getElementById(0);
+                div.style.backgroundColor = "red";
+            }     
+        }
+    </script>
+</head>
+<body>
+    <div id="0" style="width: 200px; height: 500px;background-color: rebeccapurple"></div>
+    <input type="button" name="Change" value="Change Color" />
+</body>
+</html>

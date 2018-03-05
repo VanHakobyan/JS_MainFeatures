@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Class</title>
+    <style type="text/css">
+        .Class1 {
+            background-color: blue;
+            font-family: inherit;
+        }
+
+        .Class2 {
+            background-color: red;
+            font-family: cursive;
+        }
+    </style>
+    <script type="text/javascript">
+        var div;
+        window.onload = function () {
+            div = document.getElementById("testDiv");
+            var firstButonhandler = function() {
+                div.className = "Class1";
+            }
+            var secondButonhandler = function() {
+                div.className = "Class2";
+            }
+            document.getElementById("first").onclick = firstButonhandler;
+            document.getElementById("second").onclick = secondButonhandler;
+        }
+    </script>
+</head>
+<body>
+    <input id="first" type="button" value="First" />
+    <input id="second" type="button" value="Second" />
+    <div id="testDiv">Class changer</div>
+</body>
+</html>
