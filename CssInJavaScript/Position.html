@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Position</title>
+    <style type="text/css">
+        body {
+            height: 2000px;
+        }
+        div {
+            border: azure;
+            width: 100px;
+            height: 150px;
+            padding: 15px;
+            background-color: antiquewhite;
+            }
+
+        #divAbsolute {
+            position: absolute;
+            top: 15px;
+            left: 200px;
+        }
+
+    #divFixed {
+        position: fixed;
+        top: 15px;
+        right: 0;
+    }
+    #divRelative {
+        position: relative;
+        left: 50px;
+        top: 20px;
+        height: 50px;
+        width: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div id="divAbsolute">Absolute</div>
+    <div id="divFixed">Fixed</div>
+    <div id="divRelative"></div>
+</body>
+</html>

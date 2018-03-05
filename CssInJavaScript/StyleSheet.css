@@ -1,0 +1,17 @@
+﻿body {
+    background-color: blue;
+    font-family: initial;
+}
+
+#one {
+    background-color: azure;
+    font-family: inherit;
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+ul li {
+    color: azure;
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{EA84A1C5-E2B4-43CF-921D-30A7457F088F}"
+	ProjectSection(SolutionItems) = preProject
+		CssSimple.html = CssSimple.html
+		StyleSheet.css = StyleSheet.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DHTML_CSS", "DHTML_CSS", "{49A91766-4A07-41DA-A9E3-EA9C36C335D2}"
+	ProjectSection(SolutionItems) = preProject
+		Position.html = Position.html
+		zIndex.html = zIndex.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4EE2C0-CDAD-454C-8064-FDFF288F5AF0}
+	EndGlobalSection
+EndGlobal
