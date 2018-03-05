@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="rect" align="center" style="font-size: large">Armenian Flag</div>
+    <script type="text/javascript">
+        var e = document.getElementById("rect");
+        e.style.width = "1500px";
+        e.style.height = "900px";
+        e.style.border = "solid black 2px";
+        var colors = ["red", "blue", "orange"];
+        var nextColor = 0;
+        setInterval(function () {
+            e.style.backgroundColor = colors[nextColor++ % colors.length];
+        }, 700);
+    </script>
+</body>
+</html>
