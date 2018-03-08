@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>  
+        function validate() {
+            confirm("confrime???");
+        }
+        window.onload = function () {
+            var button = document.getElementById("btn");
+            button.onclick = function () {
+                alert("Hello from Van !!")
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" name="button" value="Click" />
+    <input id="btn2" type="button" name="button2" value="Click me" onclick="alert('Hi')" />
+    <input id="btn3" type="button" name="button3" value="Click me" onclick="validate()")} />
+</body>
+</html>
