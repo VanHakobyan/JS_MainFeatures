@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            var button = document.getElementById("btn");
+            button.addEventListener("click", handler, false);
+            function handler() {
+                var element = document.getElementById("one");
+                element.innerText = "removed";
+                document.firstChild = element;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" name="button" value="Click" />
+    <br />
+    <a id="one" href="http://www.github.com">Hi There</a>
+</body>
+</html>
