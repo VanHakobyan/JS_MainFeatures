@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            var element1 = document.getElementById("first");
+            var element2 = document.getElementById("second");
+            var element3 = document.getElementById("third");
+
+            element1.addEventListener("click",
+                function () {
+                    this.style.backgroundColor = "red";
+                    //alert("կարմիր")
+                }, true)
+
+
+            element2.addEventListener("click",
+                function () {
+                    this.style.backgroundColor = "blue";
+                    //alert("կապույտ")
+                }, true)
+
+            element3.addEventListener("click",
+                function () {
+                    this.style.backgroundColor = "orange";
+                    //alert("ծիրանագույն")
+                }, true)
+        }
+    </script>
+    <style>
+        div {
+            background-color: white;
+            border: 5px solid gray ;
+            padding: 60px;
+        }
+    </style>
+</head>
+<body>
+    First
+    <div id="first">
+        Second
+        <div id="second">
+            Third
+            <div id="third">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
