@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elements", "Elements", "{4A
 		Watermark.html = Watermark.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{F7ACA5D2-A2C8-40F8-93AC-56FCBC5B5045}"
+	ProjectSection(SolutionItems) = preProject
+		LoginValidation.html = LoginValidation.html
+		ValiadateJS.js = ValiadateJS.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
