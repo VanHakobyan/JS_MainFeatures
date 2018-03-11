@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>On Change</title>
+    <script>
+        window.onload = function () {
+            for (var i = 0; i < document.forms[0].elements.length; i++) {
+                document.forms[0].elements[i].onchange = function () {
+                    document.getElementById("out").innerHTML = "element " + this.name + " worked";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        First <input type="text" name="firs" value="" /><br>
+        Second <input type="text" name="second" value="" /><br>
+        Third <input type="text" name="third" value="" /><br>
+    </form>
+    <br />
+    <p id="out">Enpty</p>
+</body>
+</html>

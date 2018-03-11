@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            for (var i = 0; i < document.forms[0].elements.length; i++) {
+                var formElement = document.forms[0].elements[i];
+                formElement.onfocus = function () {
+                    this.style.border = "2px solid black";
+                }
+                formElement.onblur = function () {
+                    this.style.border = "2px solid blue";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <style>
+        .form {
+            border: inset;
+        }
+    </style>
+    <form class="form">
+        First  <input type="text" name="firs" style="border:2px solid blue" value="" /><br>
+        Second <input type="text" name="second"style="border:2px solid blue" value="" /><br>
+        Third  <input type="text" name="third"style="border:2px solid blue" value="" /><br>
+    </form>
+    <br />
+
+</body>
+</html>

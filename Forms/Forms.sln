@@ -9,6 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Form", "Form", "{FFECAE9C-E
 		FormObjectInName.htm = FormObjectInName.htm
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elements", "Elements", "{4AA4F336-C555-4AE0-A3E6-A2140F8E5895}"
+	ProjectSection(SolutionItems) = preProject
+		FocusBlur.html = FocusBlur.html
+		OnChange.html = OnChange.html
+		Watermark.html = Watermark.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
