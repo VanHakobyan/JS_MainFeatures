@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{AD3128C1-2C0E-4A9D-AD99-4043EEFD7300}"
+	ProjectSection(SolutionItems) = preProject
+		ChangeImage.html = ChangeImage.html
+		Featching.html = Featching.html
+		Pic.png = Pic.png
+		pic2.png = pic2.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB7F88DD-0D1E-4AE6-88C7-6BC02FF1BE4A}
+	EndGlobalSection
+EndGlobal

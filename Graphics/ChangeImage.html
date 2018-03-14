@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.addEventListener("load", function () {
+            var flag;
+            document.getElementById("changeBtn").addEventListener("click", function () {
+
+                if (flag) {
+                    document.getElementById("img").src = "Pic.png";
+                } else {
+                    document.getElementById("img").src = "pic2.png";
+                }
+                flag = !flag;
+            }
+            );
+        })
+    </script>
+</head>
+<body>
+    <p align="center">
+        <img src="Pic.png" id="img" alt="Button" />
+        <br />
+        <button id="changeBtn"> Change</button>
+    </p>
+</body>
+</html>
