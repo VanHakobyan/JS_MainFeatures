@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function() {
+            document.getElementById("button").onclick = function() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "testfile.html");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200) {
+                            document.getElementById("out").innerHTML += xhr.responseText;
+                        }
+                    }
+                }
+                xhr.send();
+            }
+        }
+    </script>
+</head>
+<body>
+<input id="button" type="button" name="Buttnon" value="Button" />
+<p id="out"></p>
+</body>
+</html>
