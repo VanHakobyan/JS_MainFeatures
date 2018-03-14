@@ -3,26 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{AD3128C1-2C0E-4A9D-AD99-4043EEFD7300}"
-	ProjectSection(SolutionItems) = preProject
-		ChangeImage.html = ChangeImage.html
-		Featching.html = Featching.html
-		Pic.png = Pic.png
-		pic2.png = pic2.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SVG", "SVG", "{7B93D93F-69DD-43C2-BCEF-C96B2651816F}"
-	ProjectSection(SolutionItems) = preProject
-		Shapes.html = Shapes.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Canvas", "Canvas", "{ADBDB447-82F8-4929-BC61-E4E35896EAE3}"
-	ProjectSection(SolutionItems) = preProject
-		CanvaseLine.html = CanvaseLine.html
-		IsSupported.html = IsSupported.html
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Graphics", "Graphics\", "{8D8D8B94-3D06-4076-9BFE-E33BC90028EC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51189"
+		Debug.AspNetCompiler.PhysicalPath = "Graphics\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51189\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51189"
+		Release.AspNetCompiler.PhysicalPath = "Graphics\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51189\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51189"
+		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8D8B94-3D06-4076-9BFE-E33BC90028EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8D8B94-3D06-4076-9BFE-E33BC90028EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
