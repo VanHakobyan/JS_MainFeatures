@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            var xhr =new  XMLHttpRequest();
+            xhr.open("POST", "PostHandler.ashx");
+            xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded")
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    if (xhr.status == 200)
+                        document.getElementById("output").innerHTML = xhr.responseText;
+                }
+            }
+            xhr.send("a=բարև&b=հայեր");
+        }
+    </script>
+</head>
+<body>
+    <p id="output"></p>
+</body>
+</html>
