@@ -11,6 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{AD3128
 		pic2.png = pic2.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SVG", "SVG", "{7B93D93F-69DD-43C2-BCEF-C96B2651816F}"
+	ProjectSection(SolutionItems) = preProject
+		Shapes.html = Shapes.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Canvas", "Canvas", "{ADBDB447-82F8-4929-BC61-E4E35896EAE3}"
+	ProjectSection(SolutionItems) = preProject
+		CanvaseLine.html = CanvaseLine.html
+		IsSupported.html = IsSupported.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
